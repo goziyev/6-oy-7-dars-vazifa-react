@@ -11,6 +11,7 @@
     border-radius: 15px 0 0 0;
     padding: 10px;
     flex-direction: column;
+
 }
 .accardionTitle{
     display: flex;
@@ -19,21 +20,16 @@
     cursor: pointer;
 }
 .accardionTitle span{
-    transition: all 0.5s ease;
     font-size: 30px;
     cursor: pointer;
 }
 .noActive{
-    height: 0px;
-    transition: all 0.5s ease;
+    max-height: 0px;
     overflow: hidden;
-    border-bottom: 2px solid transparent;
+    transition: max-height 0.5s ease;
 
 }
 .active{
-    height: auto;
-    overflow: auto;
-    transition: all 0.5s ease;
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
+    max-height: 250px;
+    transition: max-height 0.5s ease;
 }
