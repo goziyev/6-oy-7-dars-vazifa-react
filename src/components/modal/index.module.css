@@ -16,7 +16,7 @@
   top: 0;
   display: block;
   z-index: 1 !important;
-  background-color: lightgray;
+  background-color: rgb(11, 10, 10);
   filter: alpha(opacity=55);
   -khtml-opacity: 0.55;
   -moz-opacity: 0.55;
