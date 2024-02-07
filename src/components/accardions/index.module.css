@@ -1,0 +1,39 @@
+.accardion{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.item{
+    border-top:2px solid white;
+    display: flex;
+    border-radius: 15px 0 0 0;
+    padding: 10px;
+    flex-direction: column;
+}
+.accardionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.accardionTitle span{
+    transition: all 0.5s ease;
+    font-size: 30px;
+    cursor: pointer;
+}
+.noActive{
+    height: 0px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    border-bottom: 2px solid transparent;
+
+}
+.active{
+    height: auto;
+    overflow: auto;
+    transition: all 0.5s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
