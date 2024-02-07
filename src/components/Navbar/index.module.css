@@ -1,0 +1,26 @@
+.navbar{
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.linkReact{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    padding-bottom: 10px;
+    transition: 0.3s linear;
+    color:white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.linkReact:hover{
+    border-color:white;
+}

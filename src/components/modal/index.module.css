@@ -1,0 +1,91 @@
+.modalButton {
+  padding: 10px 15px;
+  width: 200px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border-width: 3px;
+  border-color: white;
+}
+.modalBackground {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  z-index: 1 !important;
+  background-color: lightgray;
+  filter: alpha(opacity=55);
+  -khtml-opacity: 0.55;
+  -moz-opacity: 0.55;
+  opacity: 0.55;
+}
+
+.modalDescription {
+  color: black;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.modalCard {
+  width: 330px;
+  height: auto;
+  padding: 10px;
+  opacity: 1;
+  position: absolute;
+  z-index: 999 !important;
+  background-color: white;
+  animation: modal-card 0.3s linear;
+  top: 250px;
+  left: 30%;
+  padding: 15px;
+  border-radius:15px;
+  box-shadow: 0px 0px 30px white;
+}
+@keyframes modal-card {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 250px;
+  }
+}
+
+.exit {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 3px;
+  width: 80px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  transition: all 0.4s linear;
+}
+.exit:hover {
+  background-color: red;
+  color: white;
+}
+.agree {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 3px;
+  width: 80px;
+  background-color: transparent;
+  border: 2px solid green;
+  color: green;
+  transition: all 0.4s linear;
+}
+.agree:hover {
+  background-color: green;
+  color: white;
+}
+.buttonWrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
