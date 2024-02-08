@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Accardion />} />
-            <Route path="modal" element={<Modal />} />
-            <Route path="carousel" element={<Carousel />} />
+            <Route path="/modal" element={<Modal />} />
+            <Route path="/carousel" element={<Carousel />} />
           </Route>
         </Routes>
       </BrowserRouter>
